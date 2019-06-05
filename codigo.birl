@@ -1,10 +1,31 @@
-OH O HOME AI PO (MONSTRO FIBRANACCI(MONSTRO A))
-    ELE QUE A GENTE QUER? (A >= 1)
-        BORA CUMPADE A*(AJUDA O MALUCO TA DOENTE FIBRANACCI(A-1));
+OH O HOME AI PO (MONSTRO FIBRANACCI(MONSTRO N))
+    ELE QUE A GENTE QUER?(N<1)
+        BORA CUMPADE 0;
     NAO VAI DAR NAO
-        BORA CUMPADE 1;
-    BIRL 
-    BORA CUMPADE 1;
+        ELE QUE A GENTE QUER?(N==1||N==2)
+            BORA CUMPADE 1;
+        NAO VAI DAR NAO
+            MONSTRO A = 2;
+            MONSTRO B = 1;
+            MONSTRO VAR = 0;
+            MONSTRO M;
+            MAIS QUERO MAIS (M = 1; M != (N-1); M++)
+                ELE QUE A GENTE QUER?(VAR == 0)
+                    VAR = 1;
+                    B = A+B;
+                NAO VAI DAR NAO
+                    VAR = 0;
+                    A = A+B;
+                BIRL
+            BIRL 
+            ELE QUE A GENTE QUER?(VAR == 1)
+                BORA CUMPADE A;
+            NAO VAI DAR NAO
+                BORA CUMPADE B;
+            BIRL
+        
+        BIRL
+    BIRL
 BIRL 
 
 HORA DO SHOW
